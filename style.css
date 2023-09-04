@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -16,6 +17,23 @@ body {
     transition: top 0.3s ease-in-out;
     z-index: 99;
 }
+
+.links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.links a:hover {
+    color: rgb(227, 111, 203);
+    transform: scale(1.1);
+}
+
+.links a.active {
+    font-weight:bold;
+    color: rgb(4, 3, 3);
+}
+
 .logo img {
     width: 60px; 
     height: auto; 
@@ -31,17 +49,7 @@ body {
     
 }
 
-.links a {
-    color: rgb(0, 0, 0);
-    text-decoration:none;
-    transition: color 0.1s ease-in-out;
-    margin-right: 20px;
-}
 
-.links a:hover {
-    color: rgb(227, 111, 203); 
-    transform: scale(1.1);
-}
 
 .content {
     padding: 60px 0px 0px;
@@ -49,37 +57,39 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.galery-sec {
+.Gallery-sec {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #f3abe2;
-    background-image: url('back.jpg');
+    background-image: url('img/back.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    position: relative;
 }
-.galery-sec::before {
+
+.Gallery-sec::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    margin-top: 60px;
-    background-color: rgba(237, 155, 242, 0.199);
+    background-color: rgba(255, 255, 255, 0.578); 
     z-index: 1;
-  }
-  .galery-title {
+}
+
+
+  .Gallery-title {
     margin-bottom: 100px;
     position: absolute;
     top: 0;
     transform: translateY(72px);
   }
-.galery-item {
+.Gallery-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -225,14 +235,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
 /* GALLERY CSS */
 .gallery-title2 {
     text-align: center;
@@ -300,46 +302,6 @@ body {
     z-index: -1;
   }
  
-  .content2 {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    color: white;
-    font-size: 24px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  }
-
-  .enter-link {
-    color: rgb(221, 153, 153);
-    padding: 400px 0px;
-    border-radius: 5px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 35px;
-    font-weight: bold;
-    text-align: center;
-    width: fit-content; 
-    margin-left: 5px; 
-    margin-right: 5px;
-  }
- 
-
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.3);
-    z-index: -1;
-  }
-  
   .headline {
     color: rgb(221, 153, 153);
     font-size: 36px;
@@ -349,6 +311,56 @@ body {
     margin-bottom: 20px;
 
   }
+
+  .container2 img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255); 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .container2 {
+    max-width: 80%;
+    text-align: center;
+  }
+
+  .enter-link {
+    position:fixed;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(241, 122, 122, 0.397);
+    color: rgb(5, 5, 5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 210px;
+  }
+
+  .content2 {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: rgb(183, 172, 172);
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    background-color: rgba(199, 187, 187, 0.348);
+    
+  }
+
+ 
+
+
+
   
 /* CONTACT PAGE CSS */
 
