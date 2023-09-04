@@ -4,7 +4,7 @@ This art portfolio is a website created to showcase personal artworks and projec
 
 ## Example Demo
 To see an example of your art portfolio and understand how it works, you can click on the following link:
-[Art Portfolio Demo](https://swecery.github.io)
+[Art Portfolio Demo](https://swecery.github.io/art-portfolio/index.html)
 
 ## Goals
 The goals of this art portfolio are as follows:
