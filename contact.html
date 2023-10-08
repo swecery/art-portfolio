@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Include the stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
+    <!-- Navigation Bar -->
     <div class="navbar">
         <div class="logo">
-            
+            <!-- Logo linked to the home page -->
             <a href="index.html">
                 <img src="img/logo.png" alt="Our website logo"> 
             </a>
         </div>
-
         <div class="links">
+            <!-- Navigation links -->
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="contact.html" class="active">Contact</a>
@@ -24,40 +26,49 @@
         </div>
     </div>
 
+    <!-- Contact Form Section -->
     <section>
         <form action="send.html">
               <div class="contactText">
+                <!-- Contact form title -->
                 <h2>Contact Form</h2>
+                <!-- Name input -->
                 <input type="text" name="name" id="name" placeholder="Name" required>
+                <!-- Email input -->
                 <input type="email" name="email" id="email" placeholder="Email" >
+                <!-- Textarea for message -->
                 <textarea name="textBox" id="textBox" cols="35" rows="8" placeholder="Type here..." ></textarea>
+                <!-- Submit button -->
                 <input type="submit" name="submit" id="submit" value="Send">
               </div>
         </form>
     </section>
 
-    
+    <!-- Footer Section -->
     <div class="footer">
         <div class="footer-sec">
+            <!-- About section -->
             <h2 style="font-size: 28px; color: #333; font-style: italic;">About</h2>
             <p>This website is created by an artist who likes to share his art</p>
-            
         </div>
         <div class="footer-sec">
+            <!-- Location section -->
             <h2 style="font-size: 28px; color: #333; font-style: italic; text-align: center;">Location</h2>
+            <!-- Google Maps embed -->
             <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4509.4707057746955!2d13.041020616310986!3d55.58921470990291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20maps%20embed%20code!5e0!3m2!1sen!2sse!4v1692550099351!5m2!1sen!2sse" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="footer-sec">
+            <!-- Contact section -->
             <h2 style="font-size: 28px; color: #333; font-style: italic;">Contact</h2>
             <p>If you have any questions about my art and art in general, contact me!</p>
+            <!-- Social media links -->
             <a href="https://twitter.com"><i class="fab fa-twitter" style="vertical-align: middle;"></i></a>
             <a href="https://instagram.com"><i class="fab fa-instagram" style="vertical-align: middle;"></i></a>
             <a href="https://facebook.com"><i class="fab fa-facebook" style="vertical-align: middle;"></i></a>
         </div>
     </div>
-    
 
+    <!-- Copyright Information -->
     <div class="corporation"><p>© 2023 Ceren Yildiran - This website was made for educational purposes only, images taken from cerenyildiran.com</p></div>
-    
 </body>
 </html>
