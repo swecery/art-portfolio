@@ -254,7 +254,7 @@ body {
     height: 100%;
     background-color: #000000ec;
     margin-top: 90px;
-    padding-top: 50;
+    padding-top: 70px;
 }
 .wrapper {
     display: flex;
@@ -269,7 +269,6 @@ body {
     position: relative;
     width: 27%;
     cursor: pointer;
-    aspect-ratio: 1;
     overflow: hidden;
     transition: transform ease-in-out 0.5s;
     margin: 10px;
