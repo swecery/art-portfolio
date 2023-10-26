@@ -1,54 +1,65 @@
 # Art Portfolio
 
-This art portfolio is a website created to showcase personal artworks and projects. Below, you will find information about the goals and usage of your portfolio.
+In this portfolio, you will see the oil paintings and charcoal works created by the page owner. As you navigate through the pictures, you will come across short articles about the history of art and the impact of painting on human stress. This page is enjoyable for art enthusiasts.
 
 ## Example Demo
 To see an example of your art portfolio and understand how it works, you can click on the following link:
-[Art Portfolio Demo](https://swecery.github.io)
+[Art Portfolio Demo](https://swecery.github.io/art-portfolio)
 
-## Goals
-The goals of this art portfolio are as follows:
-- Showcase personal artworks and projects.
-- Display and promote your art to a wide audience.
-- Connect and interact with art enthusiasts and potential clients.
-- Keep the portfolio updated with new works.
+## Existing Features
+### Navigation Bar 
+![1](https://raw.githubusercontent.com/swecery/art-portfolio/main/Screenshots/Screenshot6.png)
+- The fully responsive navigation bar on all four pages includes links to the Logo, Home, About, Contact and Gallery page and is the same on each page to allow for easy navigation.
+- This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-## Usage
-This art portfolio features a straightforward website structure with four main pages: **Home (index.html)**, **About (about.html)**, **Contact (contact.html)**, and **Gallery (gallery.html)**. Here's how to use each page:
+### The landing page image 
+![2](https://raw.githubusercontent.com/swecery/art-portfolio/main/Screenshots/Screenshot1.png)
 
-- **Home Page (index.html)**: The home page welcomes visitors with key artworks and provides an overview of your portfolio. You can add images and titles of your works here.
+- By pressing enter, the immediate user will be directed to the about section of the page. 
+- The vibrant colors on this start page will attract the user's attention.
 
-- **About Page (about.html)**: This page offers more information about the artist. You can use it to provide the artist's biography, artistic philosophy, or areas of interest.
+### About Page 
+![3](https://raw.githubusercontent.com/swecery/art-portfolio/main/Screenshots/Screenshot2.png)
 
-- **Contact Page (contact.html)**: The contact page includes a contact form for visitors to reach out to you. They can use this form to send messages directly to you.
+- In this part, you are first greeted by two images that move when you hover over them, oil painting and sketches.
+- In this section, the user will read an article about the effects of painting on human stress.
+- ![4](https://raw.githubusercontent.com/swecery/art-portfolio/main/Screenshots/Screenshot3.png)
+-In this section, the user will read a small article about the history of oil painting and sketching, along with a sample image.
+![5](https://raw.githubusercontent.com/swecery/art-portfolio/main/Screenshots/Screenshot4.png)
 
-- **Gallery Page (gallery.html)**: The gallery page is where you categorize and display all your artworks. You can showcase works from different categories here.
+### Contact Page 
+![6](https://raw.githubusercontent.com/swecery/art-portfolio/main/Screenshots/Screenshot5.png)
+- There is a section in the contact section where you can contact the page owner. The user can contact via Email.
+- When the message is sent, a thank you will be written stating that the message has been delivered.
+- ![7](https://raw.githubusercontent.com/swecery/art-portfolio/main/Screenshots/Screenshot11.png)
 
-- **Replace Images in '/img' Folder**: Replace the images in the /img folder with your own images. Ensure that the names of your images match the names used in the provided example. If you don't want to change the image names, update all `<img src="**.jpg">` instances under `<form class="gal-form">` in the 'gallery.html' file with your own image names.
+### Gallery Page 
+![8](https://raw.githubusercontent.com/swecery/art-portfolio/main/Screenshots/Screenshot8.png)
+- On the gallery page, the user will navigate through the images created by the page owner.
+- When you hover over the images, the images will enlarge a little, this will attract the user's attention.
+![9](https://raw.githubusercontent.com/swecery/art-portfolio/main/Screenshots/Screenshot10.png)
 
-## Installation
-To run the portfolio on your local machine, follow these steps:
+### The Footer 
+![10](https://raw.githubusercontent.com/swecery/art-portfolio/main/Screenshots/Screenshot7.png)
+- In the footer section, a sentence is written about the page owner in the about place, and in the contact place it is written that the user can reach the page owner by e-mail if she has a question. 
+- The location section contains the address information of the page owner.
 
-1. Clone this repository to your computer: `git clone https://github.com/swecery/art-portfolio.git`
+## Features Left to Implement
+Social media accounts such as Facebook and Instagram can be added.
 
-2. Navigate to the project folder: `cd art-portfolio`
+## Testing
+![11](https://raw.githubusercontent.com/swecery/art-portfolio/main/Screenshots/Screenshot9.png)
+- The project is coded for mobile view and has no visual defects.
+ 
 
-3. Open it in your browser by entering the file path in the address bar (`file:///Users/<user>/art-portfolio/index.html`).
 
-4. Alternatively, you can right-click on the index.html file and select "Open in Browser."
+## Validator Testing
+HTML
+- No errors were returned when passing through the official W3C validator
+CSS
+- No errors were found when passing through the official (Jigsaw) validator
 
-## Contribution
-This project is open-source, and contributions are welcome. To contribute, follow these steps:
-
-1. Fork this repository.
-
-2. Create a new branch: `git checkout -b new_branch`
-
-3. Make your changes and commit them: `git commit -m "Your changes"`
-
-4. Push to your forked repository: `git push origin new_branch`
-
-5. Create a Pull Request explaining your changes.
 
 ## License
 This project is licensed under the [GNU GENERAL PUBLIC LICENSE](LICENSE).
+
